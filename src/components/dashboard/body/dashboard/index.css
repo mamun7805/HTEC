@@ -1,28 +1,32 @@
-.machine-on{
-    height: 100px;
-    width: 100px;
-    background :green;
-    border-radius: 50%;
-    overflow: auto;
-    color: white;
-    text-align: center;
-    padding: 10px;
-}
-
-.machine-off{
-    height: 100px;
-    width: 100px;
-    background-color: red;
-    border-radius: 50%;
-    overflow: auto;
-    color: white;
-    text-align: center;
-    padding: 10px;
-}
 
 .machine-container{
     display: flex;
     flex-wrap:wrap;
     flex-direction: row;
     flex-flow:wrap;
+}
+
+.machine{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    padding: 25px;
+    background-color: green;
+    border-radius: 50%;
+    margin: 10px;
+    color: white;
+}
+
+.machine:hover{
+    border:2px solid red;
+    transition: 0.4s;
+}
+
+
+.machine-on{
+    background :green;
+}
+
+.machine-off{
+    background-color: red;
 }
