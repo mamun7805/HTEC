@@ -10,13 +10,12 @@ function Home(){
         <>
             <Layout>
 
-
                
                 <div className = "row">
-                    <div className = "col-md-4">
+                    <div className = "col">
                     <Sidebar/> 
                     </div>
-                    <div className = "col-md-8">
+                    <div className = "col-md-10">
                         <div className = "p-5"> 
                           <Dashboard_body/>
                           </div>
