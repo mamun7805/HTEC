@@ -7,18 +7,17 @@ function Header(){
         <>
     <nav class="navbar navbar-expand-md bg-dark navbar-dark">
             <div className = "container">
-                <a class="navbar-brand" href="#"> MD Adraful Islam </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <a class="navbar-brand" href="#"> <i class="fas fa-user-circle"></i> MD Adraful Islam </a>
+                {/* <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                     <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                </button> */}
                 
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
                         <Link to = "/" class="nav-link">Logout</Link>
                     </li>
                 </ul>
-             </div>
+             
         </div>
     </nav>        
         </>

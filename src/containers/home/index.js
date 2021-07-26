@@ -1,7 +1,7 @@
 import React from 'react';
-import Layout from '../../components/dashboard-layout/layout';
-
-
+import Layout from "../../components/dashboard/header/layout";
+import Sidebar from '../../components/dashboard/sidebar/index';
+import Dashboard_body from '../../components/dashboard/body/dashboard/index';
 
 
 function Home(){
@@ -9,8 +9,18 @@ function Home(){
     return(
         <>
             <Layout>
-                <div className = "jumbotron">
-                    Welcome to Admin Dashboard
+
+
+               
+                <div className = "row">
+                    <div className = "col-md-4">
+                    <Sidebar/> 
+                    </div>
+                    <div className = "col-md-8">
+                        <div className = "p-5"> 
+                          <Dashboard_body/>
+                          </div>
+                    </div>
 
                 </div>
             </Layout>
@@ -18,6 +28,5 @@ function Home(){
         </>
     )
 }
-
 
 export default Home;

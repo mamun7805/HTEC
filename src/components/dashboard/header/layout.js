@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Header from './header/index';
+import Header from './index';
 
 function Layout(props){
 
@@ -8,8 +8,6 @@ function Layout(props){
         <>
             <Header/>
             {props.children}
-
-
         </>
     )
 }

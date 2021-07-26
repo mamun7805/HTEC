@@ -8,17 +8,17 @@ function Header(){
     <nav class="navbar navbar-expand-md bg-dark navbar-dark">
             <div className = "container">
                 <a class="navbar-brand" href="#">HTEC</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                {/* <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 
-                {/* <ul class="navbar-nav ml-auto">
+                <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
                         <Link to = "/" class="nav-link">Login</Link>
                     </li>
-                </ul> */}
-             </div>
+                </ul>
+             </div> */}
         </div>
     </nav>        
         </>
